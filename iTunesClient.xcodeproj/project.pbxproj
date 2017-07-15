@@ -36,6 +36,8 @@
 		97D63B171F1AA94800B5DFFC /* JSONDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D63B161F1AA94800B5DFFC /* JSONDownloader.swift */; };
 		97D63B191F1AA9A200B5DFFC /* ItunesError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D63B181F1AA9A200B5DFFC /* ItunesError.swift */; };
 		97D63B1B1F1AAB0000B5DFFC /* ItunesAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D63B1A1F1AAB0000B5DFFC /* ItunesAPIClient.swift */; };
+		97D63B1D1F1ABD3900B5DFFC /* ArtworkDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D63B1C1F1ABD3900B5DFFC /* ArtworkDownloader.swift */; };
+		97D63B1F1F1AC01300B5DFFC /* PendingOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D63B1E1F1AC01300B5DFFC /* PendingOperations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +72,8 @@
 		97D63B161F1AA94800B5DFFC /* JSONDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDownloader.swift; sourceTree = "<group>"; };
 		97D63B181F1AA9A200B5DFFC /* ItunesError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItunesError.swift; sourceTree = "<group>"; };
 		97D63B1A1F1AAB0000B5DFFC /* ItunesAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItunesAPIClient.swift; sourceTree = "<group>"; };
+		97D63B1C1F1ABD3900B5DFFC /* ArtworkDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtworkDownloader.swift; sourceTree = "<group>"; };
+		97D63B1E1F1AC01300B5DFFC /* PendingOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PendingOperations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +192,8 @@
 				97D63B161F1AA94800B5DFFC /* JSONDownloader.swift */,
 				97D63B181F1AA9A200B5DFFC /* ItunesError.swift */,
 				97D63B1A1F1AAB0000B5DFFC /* ItunesAPIClient.swift */,
+				97D63B1C1F1ABD3900B5DFFC /* ArtworkDownloader.swift */,
+				97D63B1E1F1AC01300B5DFFC /* PendingOperations.swift */,
 			);
 			name = Networking;
 			sourceTree = "<group>";
@@ -267,6 +273,8 @@
 			files = (
 				97D63B191F1AA9A200B5DFFC /* ItunesError.swift in Sources */,
 				97D63B171F1AA94800B5DFFC /* JSONDownloader.swift in Sources */,
+				97D63B1D1F1ABD3900B5DFFC /* ArtworkDownloader.swift in Sources */,
+				97D63B1F1F1AC01300B5DFFC /* PendingOperations.swift in Sources */,
 				97988D711F19C67700ECF8BC /* Song.swift in Sources */,
 				97988D6B1F19C3F200ECF8BC /* Artist.swift in Sources */,
 				97D63B0C1F1A863400B5DFFC /* ITunesMedia.swift in Sources */,

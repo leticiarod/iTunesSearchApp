@@ -7,7 +7,13 @@
 //
 
 import Foundation
+import UIKit
 
+enum AlbumArtworkState{
+    case placeholder
+    case downloaded
+    case failed
+}
 
 class Album {
     let id: Int
@@ -20,6 +26,8 @@ class Album {
     let releaseDate: Date
     let primaryGenre: Genre
     var songs = [Song]()
+    var artwork: UIImage?
+    var artoworkState = AlbumArtworkState.placeholder
     
     init(id: Int, artistName: String, name: String, censoredName: String, artworkUrl: String, isExplicit: Bool, numberOfTracks: Int, releaseDate: Date, primaryGenre: Genre, songs: [Song]){
         self.id = id

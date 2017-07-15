@@ -26,7 +26,9 @@ class AlbumListController: UITableViewController {
         return AlbumListDataSource(albums: self.artist.albums)
     }() */
     
-    var dataSource = AlbumListDataSource(albums: [])
+    lazy var dataSource: AlbumListDataSource = {
+        return AlbumListDataSource(albums: [], tableView: self.tableView)
+    }()
     
     let client = ItunesAPIClient()
     
